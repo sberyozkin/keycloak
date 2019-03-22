@@ -27,6 +27,6 @@
         <subsystem>request-controller.xml</subsystem>
         <subsystem supplement="web-build">security.xml</subsystem>
         <subsystem>undertow.xml</subsystem>
-        <subsystem>keycloak-adapter.xml</subsystem>
+        <subsystem>keycloak-saml-adapter.xml</subsystem>
     </subsystems>
 </config>
