@@ -24,7 +24,7 @@
     </properties>
     <resources>
         <resource-root path="."/>
-        <!-- Insert resources here -->
+        <artifact name="${org.keycloak:keycloak-saml-wildfly-subsystem}"/>
     </resources>
 
     <dependencies>
