@@ -21,7 +21,8 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.keycloak.keycloak-adapter-spi">
     <resources>
-        <!-- Insert resources here -->
+        <artifact name="${org.keycloak:keycloak-adapter-spi}"/>
+        <artifact name="${org.keycloak:keycloak-undertow-adapter-spi}"/>
     </resources>
     <dependencies>
         <module name="javax.api"/>

@@ -24,7 +24,7 @@
         <property name="jboss.api" value="private"/>
     </properties>
     <resources>
-        <!-- Insert resources here -->
+        <artifact name="${org.keycloak:keycloak-saml-wildfly-elytron-adapter}"/>
     </resources>
     <dependencies>
         <module name="javax.api"/>

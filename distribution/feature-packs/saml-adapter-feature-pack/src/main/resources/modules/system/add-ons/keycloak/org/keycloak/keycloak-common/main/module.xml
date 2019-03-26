@@ -21,7 +21,7 @@
 
 <module xmlns="urn:jboss:module:1.1" name="org.keycloak.keycloak-common">
     <resources>
-        <!-- Insert resources here -->
+        <artifact name="${org.keycloak:keycloak-common}"/>
     </resources>
     <dependencies>
         <module name="org.bouncycastle" />
